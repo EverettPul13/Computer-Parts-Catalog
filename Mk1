@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Computer Ports — Full Catalog</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:24px;background:#f7f7fb;color:#111}
+    header{display:flex;align-items:center;gap:16px}
+    h1{margin:0;font-size:28px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:18px;margin-top:18px}
+    .card{background:#fff;border-radius:10px;padding:12px;box-shadow:0 6px 18px rgba(15,15,40,0.06);display:flex;gap:12px;align-items:center}
+    .thumb{width:160px;height:100px;flex:0 0 160px;background:#eee;border-radius:6px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+    .thumb img{width:100%;height:100%;object-fit:contain}
+    .meta{flex:1}
+    .meta h3{margin:0 0 6px 0;font-size:16px}
+    .meta p{margin:0;color:#444;font-size:13px}
+    footer{margin-top:24px;color:#666;font-size:13px}
+    .section-title{margin-top:28px;font-size:18px}
+    a.source{font-size:12px;color:#0b6ef6}
+    .topbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+    .chip{background:#fff;padding:6px 10px;border-radius:999px;box-shadow:0 4px 10px rgba(0,0,0,0.04);font-size:13px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Computer Ports — Full Catalog</h1>
+  </header>
+
+  <p style="color:#444;margin-top:12px">This catalog includes full-color images of computer ports (modern, legacy, enterprise, obscure). Images are hotlinked from Wikimedia Commons / public sources. Click the source link for license details.</p>
+
+  <div class="topbar">
+    <div class="chip">Includes: USB, Thunderbolt, VGA, HDMI, RJ45, DE-9, DB-25, SCSI, IDE/PATA, Molex, internal headers, legacy connectors</div>
+    <div class="chip">All images hotlinked, free-licensed where possible</div>
+  </div>
+
+  <!-- Legacy & Enterprise -->
+  <div class="section-title">Legacy & Enterprise — Serial / Parallel / SCSI / Storage</div>
+  <div class="grid">
+    <div class="card">
+      <div class="thumb"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Serialport.jpg" alt="DE-9 serial port"></div>
+      <div class="meta">
+        <h3>DE-9 (RS-232 serial)</h3>
+        <p>9-pin D-sub serial port used for COM ports. <a class="source" href="https://commons.wikimedia.org/wiki/File:Serialport.jpg" target="_blank">Image source</a></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="thumb"><img src="https://upload.wikimedia.org/wikipedia/commons/4/45/DB-25_Parallel_Connector.svg" alt="DB-25 parallel"></div>
+      <div class="meta">
+        <h3>DB-25 (Parallel)</h3>
+        <p>25-pin D-sub used for printers (LPT) or legacy serial. <a class="source" href="https://commons.wikimedia.org/wiki/File:DB-25_Parallel_Connector.svg" target="_blank">Image source</a></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="thumb"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/SCSI_50pin.jpg" alt="SCSI 50-pin"></div>
+      <div class="meta">
+        <h3>SCSI 50-pin</h3>
+        <p>Narrow SCSI connector used on older devices. <a class="source" href="https://commons.wikimedia.org/wiki/File:SCSI_50pin.jpg" target="_blank">Image source</a></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="thumb"><img src="https://upload.wikimedia.org/wikipedia/commons/1/14/40pin_IDE_cable.JPG" alt="IDE 40-pin"></div>
+      <div class="meta">
+        <h3>IDE / PATA 40-pin</h3>
+        <p>Ribbon cable interface for older drives. <a class="source" href="https://commons.wikimedia.org/wiki/File:40pin_IDE_cable.JPG" target="_blank">Image source</a></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="thumb"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Mini-Centronics_36_pin_with_Micro-Centronics_36_pin.jpg" alt="Centronics 36-pin"></div>
+      <div class="meta">
+        <h3>Centronics 36 / Micro-Ribbon</h3>
+        <p>Legacy printer connector. <a class="source" href="https://commons.wikimedia.org/wiki/File:Mini-Centronics_36_pin_with_Micro-Centronics_36_pin.jpg" target="_blank">Image source</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video & Display -->
+  <div class="section-title">Video & Display</div>
+  <div class="grid">
+    <div class="card">
+      <div class="thumb"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/HDMI_Connector.jpg" alt="HDMI"></div>
+      <div class="meta">
+        <h3>HDMI</h3>
+        <p>Digital A/V connector for monitors, TVs, projectors. <a class="source" href="https://commons.wikimedia.org/wiki/File:HDMI_Connector.jpg" target="_blank">Image source</a></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="thumb"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/VGA_connector.jpg" alt="VGA"></div>
+      <div class="meta">
+        <h3>VGA (DE-15)</h3>
+        <p>15-pin analog video connector. <a class="source" href="https://commons.wikimedia.org/wiki/File:VGA_connector.jpg" target="_blank">Image source</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- USB, Networking, Audio -->
+  <div class="section-title">USB, Thunderbolt, Network & Audio</div>
+  <div class="grid">
+    <div class="card">
+      <div class="thumb"><img src="https://upload.wikimedia.org/wikipedia/commons/3/35/USB_Type-A_Plug.jpg" alt="USB-A"></div>
+      <div class="meta">
+        <h3>USB Type-A</h3>
+        <p>Rectangular USB host port. <a class="source" href="https://commons.wikimedia.org/wiki/File:USB_Type-A_Plug.jpg" target="_blank">Image source</a></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="thumb"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/USB_Type-C_Top_View.jpg" alt="USB-C"></div>
+      <div class="meta">
+        <h3>USB Type-C</h3>
+        <p>Reversible connector for data/power/video. <a class="source" href="https://commons.wikimedia.org/wiki/File:USB_Type-C_Top_View.jpg" target="_blank">Image source</a></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="thumb"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/RJ45-Ethernet-Connector.jpg" alt="RJ45"></div>
+      <div class="meta">
+        <h3>RJ-45 (Ethernet)</h3>
+        <p>8P8C modular plug used for networking. <a class="source" href="https://commons.wikimedia.org/wiki/File:RJ45-Ethernet-Connector.jpg" target="_blank">Image source</a></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="thumb"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/3.5_mm_jack_plug.jpg" alt="3.5mm audio"></div>
+      <div class="meta">
+        <h3>3.5 mm audio jack</h3>
+        <p>Headphone/mic connector. <a class="source" href="https://commons.wikimedia.org/wiki/File:3.5_mm_jack_plug.jpg" target="_blank">Image source</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Power & Internal -->
+  <div class="section-title">Power / Internal / Debug</div>
+  <div class="grid">
+    <div class="card">
+      <div class="thumb"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Molex_Connector_4_Pin.jpg" alt="Molex"></div>
+      <div class="meta">
+        <h3>Molex 4-pin (Peripheral)</h3>
+        <p>Legacy 4-pin power connector. <a class="source" href="https://commons.wikimedia.org/wiki/File:Molex_Connector_4_Pin.jpg" target="_blank">Image source</a></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="thumb"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/JTAG_20_pin_Connector.jpg" alt="JTAG header"></div>
+      <div class="meta">
+        <h3>JTAG / Debug headers</h3>
+        <p>Programming and board-level debugging. <a class="source" href="https://commons.wikimedia.org/wiki/File:JTAG_20_pin_Connector.jpg" target="_blank">Image source</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Obscure & Vintage -->
+  <div class="section-title">Obscure & Vintage</div>
+  <div class="grid">
+    <div class="card">
+      <div class="thumb"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/BNC_connector.jpg" alt="BNC"></div>
+      <div class="meta">
+        <h3>BNC</h3>
+        <p>Bayonet RF connector. <a class="source" href="https://commons.wikimedia.org/wiki/File:BNC_connector.jpg" target="_blank">Image source</a></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="thumb"><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Microdrive_w_ATA_Connector.jpg" alt="CompactFlash IDE"></div>
+      <div class="meta">
+        <h3>CompactFlash / TrueIDE</h3>
+        <p>Industrial storage using IDE-mode. <a class="source" href="https://commons.wikimedia.org/wiki/File:Microdrive_w_ATA_Connector.jpg" target="_blank">Image source</a></p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>All images are hotlinked from Wikimedia Commons / public sources. Check license links before redistribution.</p>
+  </footer>
+</body>
+</html>
